@@ -1,0 +1,4 @@
+#Tue Aug 04 13:09:48 ICT 2020
+base.0=/Users/huydev/MyProject/SimpleNavigation/android/app/build/intermediates/dex/debug/mergeDexDebug/out/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
