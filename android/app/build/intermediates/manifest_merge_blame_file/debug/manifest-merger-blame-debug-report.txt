@@ -5,64 +5,117 @@
 5    android:versionName="1.0" >
 6
 7    <uses-sdk
-8        android:minSdkVersion="16"
+8        android:minSdkVersion="18"
 9        android:targetSdkVersion="29" />
 10
 11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
-11-->/Users/huydev/MyProject/SimpleNavigation/android/app/src/debug/AndroidManifest.xml:5:5-77
-11-->/Users/huydev/MyProject/SimpleNavigation/android/app/src/debug/AndroidManifest.xml:5:22-75
+11-->/Users/huydev/MyProject/simpleNavigation/android/app/src/debug/AndroidManifest.xml:5:5-77
+11-->/Users/huydev/MyProject/simpleNavigation/android/app/src/debug/AndroidManifest.xml:5:22-75
 12    <uses-permission android:name="android.permission.INTERNET" />
-12-->/Users/huydev/MyProject/SimpleNavigation/android/app/src/main/AndroidManifest.xml:4:5-67
-12-->/Users/huydev/MyProject/SimpleNavigation/android/app/src/main/AndroidManifest.xml:4:22-64
+12-->/Users/huydev/MyProject/simpleNavigation/android/app/src/main/AndroidManifest.xml:2:2-64
+12-->/Users/huydev/MyProject/simpleNavigation/android/app/src/main/AndroidManifest.xml:2:19-61
 13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
 13-->[com.facebook.flipper:flipper:0.37.0] /Users/huydev/.gradle/caches/transforms-2/files-2.1/623174cd4892d9fb924ac44b102b25c0/flipper-0.37.0/AndroidManifest.xml:16:5-76
 13-->[com.facebook.flipper:flipper:0.37.0] /Users/huydev/.gradle/caches/transforms-2/files-2.1/623174cd4892d9fb924ac44b102b25c0/flipper-0.37.0/AndroidManifest.xml:16:22-73
-14
-15    <application
-15-->/Users/huydev/MyProject/SimpleNavigation/android/app/src/main/AndroidManifest.xml:6:5-25:19
-16        android:name="com.simplenavigation.MainApplication"
-16-->/Users/huydev/MyProject/SimpleNavigation/android/app/src/main/AndroidManifest.xml:7:7-38
-17        android:allowBackup="false"
-17-->/Users/huydev/MyProject/SimpleNavigation/android/app/src/main/AndroidManifest.xml:11:7-34
-18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-18-->[androidx.core:core:1.1.0] /Users/huydev/.gradle/caches/transforms-2/files-2.1/639e914bfc1efa21e36199d3ff2c5eef/core-1.1.0/AndroidManifest.xml:24:18-86
-19        android:debuggable="true"
-20        android:icon="@mipmap/ic_launcher"
-20-->/Users/huydev/MyProject/SimpleNavigation/android/app/src/main/AndroidManifest.xml:9:7-41
-21        android:label="@string/app_name"
-21-->/Users/huydev/MyProject/SimpleNavigation/android/app/src/main/AndroidManifest.xml:8:7-39
-22        android:roundIcon="@mipmap/ic_launcher_round"
-22-->/Users/huydev/MyProject/SimpleNavigation/android/app/src/main/AndroidManifest.xml:10:7-52
-23        android:theme="@style/AppTheme"
-23-->/Users/huydev/MyProject/SimpleNavigation/android/app/src/main/AndroidManifest.xml:12:7-38
-24        android:usesCleartextTraffic="true" >
-24-->/Users/huydev/MyProject/SimpleNavigation/android/app/src/debug/AndroidManifest.xml:7:18-53
-25        <activity
-25-->/Users/huydev/MyProject/SimpleNavigation/android/app/src/main/AndroidManifest.xml:13:7-23:18
-26            android:name="com.simplenavigation.MainActivity"
-26-->/Users/huydev/MyProject/SimpleNavigation/android/app/src/main/AndroidManifest.xml:14:9-37
-27            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
-27-->/Users/huydev/MyProject/SimpleNavigation/android/app/src/main/AndroidManifest.xml:16:9-86
-28            android:label="@string/app_name"
-28-->/Users/huydev/MyProject/SimpleNavigation/android/app/src/main/AndroidManifest.xml:15:9-41
-29            android:launchMode="singleTask"
-29-->/Users/huydev/MyProject/SimpleNavigation/android/app/src/main/AndroidManifest.xml:17:9-40
-30            android:windowSoftInputMode="adjustResize" >
-30-->/Users/huydev/MyProject/SimpleNavigation/android/app/src/main/AndroidManifest.xml:18:9-51
-31            <intent-filter>
-31-->/Users/huydev/MyProject/SimpleNavigation/android/app/src/main/AndroidManifest.xml:19:9-22:25
-32                <action android:name="android.intent.action.MAIN" />
-32-->/Users/huydev/MyProject/SimpleNavigation/android/app/src/main/AndroidManifest.xml:20:13-65
-32-->/Users/huydev/MyProject/SimpleNavigation/android/app/src/main/AndroidManifest.xml:20:21-62
-33
-34                <category android:name="android.intent.category.LAUNCHER" />
-34-->/Users/huydev/MyProject/SimpleNavigation/android/app/src/main/AndroidManifest.xml:21:13-73
-34-->/Users/huydev/MyProject/SimpleNavigation/android/app/src/main/AndroidManifest.xml:21:23-70
-35            </intent-filter>
-36        </activity>
-37        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
-37-->/Users/huydev/MyProject/SimpleNavigation/android/app/src/main/AndroidManifest.xml:24:7-84
-37-->/Users/huydev/MyProject/SimpleNavigation/android/app/src/main/AndroidManifest.xml:24:17-81
-38    </application>
-39
-40</manifest>
+14    <uses-permission android:name="com.zing.zalo.permission.ACCESS_THIRD_PARTY_APP_AUTHORIZATION" />
+14-->[com.zing.zalo.zalosdk:auth:2.5.0819] /Users/huydev/.gradle/caches/transforms-2/files-2.1/a226bb193dcc0d543480ed1a37eed25b/jetified-auth-2.5.0819/AndroidManifest.xml:12:5-101
+14-->[com.zing.zalo.zalosdk:auth:2.5.0819] /Users/huydev/.gradle/caches/transforms-2/files-2.1/a226bb193dcc0d543480ed1a37eed25b/jetified-auth-2.5.0819/AndroidManifest.xml:12:22-98
+15
+16    <application
+16-->/Users/huydev/MyProject/simpleNavigation/android/app/src/main/AndroidManifest.xml:3:2-22:16
+17        android:name="com.simplenavigation.MainApplication"
+17-->/Users/huydev/MyProject/simpleNavigation/android/app/src/main/AndroidManifest.xml:3:15-46
+18        android:allowBackup="false"
+18-->/Users/huydev/MyProject/simpleNavigation/android/app/src/main/AndroidManifest.xml:3:161-188
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.1.0] /Users/huydev/.gradle/caches/transforms-2/files-2.1/639e914bfc1efa21e36199d3ff2c5eef/core-1.1.0/AndroidManifest.xml:24:18-86
+20        android:debuggable="true"
+21        android:icon="@mipmap/ic_launcher"
+21-->/Users/huydev/MyProject/simpleNavigation/android/app/src/main/AndroidManifest.xml:3:80-114
+22        android:label="@string/app_name"
+22-->/Users/huydev/MyProject/simpleNavigation/android/app/src/main/AndroidManifest.xml:3:47-79
+23        android:roundIcon="@mipmap/ic_launcher_round"
+23-->/Users/huydev/MyProject/simpleNavigation/android/app/src/main/AndroidManifest.xml:3:115-160
+24        android:theme="@style/AppTheme"
+24-->/Users/huydev/MyProject/simpleNavigation/android/app/src/main/AndroidManifest.xml:3:189-220
+25        android:usesCleartextTraffic="true" >
+25-->/Users/huydev/MyProject/simpleNavigation/android/app/src/debug/AndroidManifest.xml:7:18-53
+26        <activity
+26-->/Users/huydev/MyProject/simpleNavigation/android/app/src/main/AndroidManifest.xml:4:3-9:14
+27            android:name="com.simplenavigation.MainActivity"
+27-->/Users/huydev/MyProject/simpleNavigation/android/app/src/main/AndroidManifest.xml:4:13-41
+28            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+28-->/Users/huydev/MyProject/simpleNavigation/android/app/src/main/AndroidManifest.xml:4:75-152
+29            android:label="@string/app_name"
+29-->/Users/huydev/MyProject/simpleNavigation/android/app/src/main/AndroidManifest.xml:4:42-74
+30            android:launchMode="singleTask"
+30-->/Users/huydev/MyProject/simpleNavigation/android/app/src/main/AndroidManifest.xml:4:153-184
+31            android:windowSoftInputMode="adjustResize" >
+31-->/Users/huydev/MyProject/simpleNavigation/android/app/src/main/AndroidManifest.xml:4:185-227
+32            <intent-filter>
+32-->/Users/huydev/MyProject/simpleNavigation/android/app/src/main/AndroidManifest.xml:5:4-8:20
+33                <action android:name="android.intent.action.MAIN" />
+33-->/Users/huydev/MyProject/simpleNavigation/android/app/src/main/AndroidManifest.xml:6:5-57
+33-->/Users/huydev/MyProject/simpleNavigation/android/app/src/main/AndroidManifest.xml:6:13-54
+34
+35                <category android:name="android.intent.category.LAUNCHER" />
+35-->/Users/huydev/MyProject/simpleNavigation/android/app/src/main/AndroidManifest.xml:7:5-65
+35-->/Users/huydev/MyProject/simpleNavigation/android/app/src/main/AndroidManifest.xml:7:15-62
+36            </intent-filter>
+37        </activity>
+38
+39        <meta-data
+39-->/Users/huydev/MyProject/simpleNavigation/android/app/src/main/AndroidManifest.xml:10:3-89
+40            android:name="com.zing.zalo.zalosdk.appID"
+40-->/Users/huydev/MyProject/simpleNavigation/android/app/src/main/AndroidManifest.xml:10:14-56
+41            android:value="@string/appID" />
+41-->/Users/huydev/MyProject/simpleNavigation/android/app/src/main/AndroidManifest.xml:10:57-86
+42
+43        <activity android:name="com.zing.zalo.zalosdk.oauth.BrowserLoginActivity" >
+43-->/Users/huydev/MyProject/simpleNavigation/android/app/src/main/AndroidManifest.xml:12:3-19:14
+43-->/Users/huydev/MyProject/simpleNavigation/android/app/src/main/AndroidManifest.xml:12:13-76
+44            <intent-filter>
+44-->/Users/huydev/MyProject/simpleNavigation/android/app/src/main/AndroidManifest.xml:13:4-18:20
+45                <action android:name="android.intent.action.VIEW" />
+45-->/Users/huydev/MyProject/simpleNavigation/android/app/src/main/AndroidManifest.xml:14:5-57
+45-->/Users/huydev/MyProject/simpleNavigation/android/app/src/main/AndroidManifest.xml:14:13-54
+46
+47                <category android:name="android.intent.category.DEFAULT" />
+47-->/Users/huydev/MyProject/simpleNavigation/android/app/src/main/AndroidManifest.xml:15:5-64
+47-->/Users/huydev/MyProject/simpleNavigation/android/app/src/main/AndroidManifest.xml:15:15-61
+48                <category android:name="android.intent.category.BROWSABLE" />
+48-->/Users/huydev/MyProject/simpleNavigation/android/app/src/main/AndroidManifest.xml:16:5-66
+48-->/Users/huydev/MyProject/simpleNavigation/android/app/src/main/AndroidManifest.xml:16:15-63
+49
+50                <data android:scheme="zalo-2874211114250861487" />
+50-->/Users/huydev/MyProject/simpleNavigation/android/app/src/main/AndroidManifest.xml:17:5-55
+50-->/Users/huydev/MyProject/simpleNavigation/android/app/src/main/AndroidManifest.xml:17:11-52
+51            </intent-filter>
+52        </activity>
+53        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+53-->/Users/huydev/MyProject/simpleNavigation/android/app/src/main/AndroidManifest.xml:21:3-80
+53-->/Users/huydev/MyProject/simpleNavigation/android/app/src/main/AndroidManifest.xml:21:13-77
+54        <activity
+54-->[com.zing.zalo.zalosdk:openapi:2.5.0819] /Users/huydev/.gradle/caches/transforms-2/files-2.1/a9add59a8c3a4a923ebbbd410e6d78ce/jetified-openapi-2.5.0819/AndroidManifest.xml:12:9-16:20
+55            android:name="com.zing.zalo.zalosdk.oauth.OpenAPIActivity"
+55-->[com.zing.zalo.zalosdk:openapi:2.5.0819] /Users/huydev/.gradle/caches/transforms-2/files-2.1/a9add59a8c3a4a923ebbbd410e6d78ce/jetified-openapi-2.5.0819/AndroidManifest.xml:13:13-71
+56            android:configChanges="keyboardHidden|screenSize|orientation"
+56-->[com.zing.zalo.zalosdk:openapi:2.5.0819] /Users/huydev/.gradle/caches/transforms-2/files-2.1/a9add59a8c3a4a923ebbbd410e6d78ce/jetified-openapi-2.5.0819/AndroidManifest.xml:14:13-74
+57            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+57-->[com.zing.zalo.zalosdk:openapi:2.5.0819] /Users/huydev/.gradle/caches/transforms-2/files-2.1/a9add59a8c3a4a923ebbbd410e6d78ce/jetified-openapi-2.5.0819/AndroidManifest.xml:15:13-72
+58        </activity>
+59        <activity
+59-->[com.zing.zalo.zalosdk:auth:2.5.0819] /Users/huydev/.gradle/caches/transforms-2/files-2.1/a226bb193dcc0d543480ed1a37eed25b/jetified-auth-2.5.0819/AndroidManifest.xml:15:9-20:75
+60            android:name="com.zing.zalo.zalosdk.oauth.WebLoginActivity"
+60-->[com.zing.zalo.zalosdk:auth:2.5.0819] /Users/huydev/.gradle/caches/transforms-2/files-2.1/a226bb193dcc0d543480ed1a37eed25b/jetified-auth-2.5.0819/AndroidManifest.xml:16:13-72
+61            android:configChanges="orientation|screenSize"
+61-->[com.zing.zalo.zalosdk:auth:2.5.0819] /Users/huydev/.gradle/caches/transforms-2/files-2.1/a226bb193dcc0d543480ed1a37eed25b/jetified-auth-2.5.0819/AndroidManifest.xml:17:13-59
+62            android:screenOrientation="sensor"
+62-->[com.zing.zalo.zalosdk:auth:2.5.0819] /Users/huydev/.gradle/caches/transforms-2/files-2.1/a226bb193dcc0d543480ed1a37eed25b/jetified-auth-2.5.0819/AndroidManifest.xml:18:13-47
+63            android:theme="@style/FixThemeForLoginWebview"
+63-->[com.zing.zalo.zalosdk:auth:2.5.0819] /Users/huydev/.gradle/caches/transforms-2/files-2.1/a226bb193dcc0d543480ed1a37eed25b/jetified-auth-2.5.0819/AndroidManifest.xml:19:13-59
+64            android:windowSoftInputMode="stateHidden|stateAlwaysHidden" />
+64-->[com.zing.zalo.zalosdk:auth:2.5.0819] /Users/huydev/.gradle/caches/transforms-2/files-2.1/a226bb193dcc0d543480ed1a37eed25b/jetified-auth-2.5.0819/AndroidManifest.xml:20:13-72
+65    </application>
+66
+67</manifest>

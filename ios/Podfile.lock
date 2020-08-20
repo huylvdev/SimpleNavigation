@@ -238,6 +238,9 @@ PODS:
   - React-jsinspector (0.63.2)
   - react-native-safe-area-context (3.1.1):
     - React
+  - react-native-zalo-kit (1.0.8):
+    - React
+    - ZaloSDK
   - React-RCTActionSheet (0.63.2):
     - React-Core/RCTActionSheetHeaders (= 0.63.2)
   - React-RCTAnimation (0.63.2):
@@ -309,6 +312,12 @@ PODS:
   - Yoga (1.14.0)
   - YogaKit (1.18.1):
     - Yoga (~> 1.14)
+  - ZaloSDK (2.5.0818):
+    - ZaloSDK/Core (= 2.5.0818)
+    - ZaloSDK/Main (= 2.5.0818)
+  - ZaloSDK/Core (2.5.0818)
+  - ZaloSDK/Main (2.5.0818):
+    - ZaloSDK/Core
 
 DEPENDENCIES:
   - DoubleConversion (from `../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec`)
@@ -348,6 +357,7 @@ DEPENDENCIES:
   - React-jsiexecutor (from `../node_modules/react-native/ReactCommon/jsiexecutor`)
   - React-jsinspector (from `../node_modules/react-native/ReactCommon/jsinspector`)
   - react-native-safe-area-context (from `../node_modules/react-native-safe-area-context`)
+  - react-native-zalo-kit (from `../node_modules/react-native-zalo-kit`)
   - React-RCTActionSheet (from `../node_modules/react-native/Libraries/ActionSheetIOS`)
   - React-RCTAnimation (from `../node_modules/react-native/Libraries/NativeAnimation`)
   - React-RCTBlob (from `../node_modules/react-native/Libraries/Blob`)
@@ -378,6 +388,7 @@ SPEC REPOS:
     - FlipperKit
     - OpenSSL-Universal
     - YogaKit
+    - ZaloSDK
 
 EXTERNAL SOURCES:
   DoubleConversion:
@@ -412,6 +423,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native/ReactCommon/jsinspector"
   react-native-safe-area-context:
     :path: "../node_modules/react-native-safe-area-context"
+  react-native-zalo-kit:
+    :path: "../node_modules/react-native-zalo-kit"
   React-RCTActionSheet:
     :path: "../node_modules/react-native/Libraries/ActionSheetIOS"
   React-RCTAnimation:
@@ -471,6 +484,7 @@ SPEC CHECKSUMS:
   React-jsiexecutor: 8ca588cc921e70590820ce72b8789b02c67cce38
   React-jsinspector: b14e62ebe7a66e9231e9581279909f2fc3db6606
   react-native-safe-area-context: 344b969c45af3d8464d36e8dea264942992ef033
+  react-native-zalo-kit: 7d59aabc6a83873be06be10534c1d6e6b6400dc0
   React-RCTActionSheet: 910163b6b09685a35c4ebbc52b66d1bfbbe39fc5
   React-RCTAnimation: 9a883bbe1e9d2e158d4fb53765ed64c8dc2200c6
   React-RCTBlob: 39cf0ece1927996c4466510e25d2105f67010e13
@@ -487,7 +501,8 @@ SPEC CHECKSUMS:
   RNScreens: c526239bbe0e957b988dacc8d75ac94ec9cb19da
   Yoga: 7740b94929bbacbddda59bf115b5317e9a161598
   YogaKit: f782866e155069a2cca2517aafea43200b01fd5a
+  ZaloSDK: f48cd625cac292865b78d1648c154041307e35c1
 
 PODFILE CHECKSUM: 3ed89e9f273bd1981dc568803a66aa306dc20883
 
-COCOAPODS: 1.8.4
+COCOAPODS: 1.9.3

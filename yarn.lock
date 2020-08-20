@@ -5624,6 +5624,11 @@ react-native-screens@^2.9.0:
   resolved "https://registry.yarnpkg.com/react-native-screens/-/react-native-screens-2.9.0.tgz#ead2843107ba00fee259aa377582e457c74f1f3b"
   integrity sha512-5MaiUD6HA3nzY3JbVI8l3V7pKedtxQF3d8qktTVI0WmWXTI4QzqOU8r8fPVvfKo3MhOXwhWBjr+kQ7DZaIQQeg==
 
+react-native-zalo-kit@^1.0.8:
+  version "1.0.8"
+  resolved "https://registry.yarnpkg.com/react-native-zalo-kit/-/react-native-zalo-kit-1.0.8.tgz#a1e43ee2f48b0b59e4936f7f333a163bb19c0402"
+  integrity sha512-CKzDIYN9jNl2878JdnFmtNSIwAhU8KdkpDX/2GFux/YLm+jnGJNnrH80D2JXpIbUjW8eInfS95HHDFY/p0UCaw==
+
 react-native@0.63.2:
   version "0.63.2"
   resolved "https://registry.yarnpkg.com/react-native/-/react-native-0.63.2.tgz#eaebf3430577b37fbd66ef228a86b3408259ef8e"

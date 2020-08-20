@@ -1,7 +1,8 @@
 package com.simplenavigation;
 
 import com.facebook.react.ReactActivity;
-
+import com.zing.zalo.zalosdk.oauth.ZaloSDK;
+import android.content.Intent;
 public class MainActivity extends ReactActivity {
 
   /**
@@ -11,5 +12,10 @@ public class MainActivity extends ReactActivity {
   @Override
   protected String getMainComponentName() {
     return "SimpleNavigation";
+  }
+  @Override
+  public void onActivityResult(int requestCode, int resultCode, Intent data) {
+    super.onActivityResult(requestCode, resultCode, data);
+    ZaloSDK.Instance.onActivityResult(this, requestCode, resultCode, data);
   }
 }
