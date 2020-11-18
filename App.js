@@ -1,21 +1,15 @@
-import * as React from 'react';
-import { View, Text } from 'react-native';
-import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
-import HomeScreen from './src/HomeScreen'
-import DetailsScreen from './src/DetailsScreen'
-
-
+import * as React from 'react';
+import InitApp from './src/Appnavigate';
+import { Provider } from 'react-redux';
+import store from './src/redux/store';
 const Stack = createStackNavigator();
 
 function App() {
   return (
-    <NavigationContainer>
-      <Stack.Navigator  >
-        <Stack.Screen name="Home" component={HomeScreen} />
-        <Stack.Screen name="Details" component={DetailsScreen} />
-      </Stack.Navigator>
-    </NavigationContainer>
+    <Provider store={store}>
+      <InitApp />
+    </Provider>
   );
 }
 
