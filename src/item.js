@@ -8,7 +8,7 @@ class Home extends PureComponent {
         super(props);
         this.state = {
             lstDataTemp: [],
-            count: 0
+
         };
     }
     async Select(item) {
@@ -16,10 +16,10 @@ class Home extends PureComponent {
         const { lstDataTemp } = this.state
         if (!lstDataTemp.includes(item)) {
             let data = [...lstDataTemp, item]
-            this.setState({ lstDataTemp: data, count: this.state.count + 1 });
+            this.setState({ lstDataTemp: data, });
         }
         else {
-            this.setState({ lstDataTemp: lstDataTemp.filter(a => a !== item), count: this.state.count - 1 });
+            this.setState({ lstDataTemp: lstDataTemp.filter(a => a !== item), });
         }
     }
 
@@ -28,7 +28,7 @@ class Home extends PureComponent {
         return (
             <TouchableOpacity
                 onPress={() => this.Select(item)}   >
-                <View style={{ flexDirection: 'row', padding: item.pd }}>
+                <View style={{ flexDirection: 'row', paddingLeft: (item.level) * 5, paddingTop: 10 }}>
                     <Text> ☭</Text>
                     <Text> {item.name}</Text>
                 </View>
